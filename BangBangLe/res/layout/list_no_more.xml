@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+       android:background="#f7f7f7"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/packet_list_nomore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+           android:background="#f7f7f7"
+        android:text="亲，没有更多了"
+        android:textColor="#FF6600"
+        android:textSize="12dp" />
+
+</LinearLayout>

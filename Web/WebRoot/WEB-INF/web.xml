@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>LogLet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.servlet.LogLet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegLet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.servlet.RegLet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AlterLet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.servlet.AlterLet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HelpRet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.servlet.HelpRet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindLet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.servlet.FindLet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LogLet</servlet-name>
+    <url-pattern>/LogLet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegLet</servlet-name>
+    <url-pattern>/RegLet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterLet</servlet-name>
+    <url-pattern>/AlterLet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HelpRet</servlet-name>
+    <url-pattern>/HelpRet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindLet</servlet-name>
+    <url-pattern>/FindLet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

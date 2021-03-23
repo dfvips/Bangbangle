@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>       
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"       
+    android:orientation="horizontal"    
+    android:layout_width="match_parent"     
+    android:layout_height="match_parent">  
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:background="#E6E6E6">
+        <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:text="用  户  名"
+            android:textColor="#000005"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:text="梦丶随心飞"
+            android:textColor="#000005"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/relativeLayout1"
+    android:layout_marginLeft="10dp"
+    android:padding="8dp"
+    android:text="账号绑定"
+    android:textSize="14sp" />
+
+<RelativeLayout
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/textView3"
+    android:background="#FFFFFF"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:text="邮        箱"
+        android:textColor="#000005"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:text="563547899@qq.com"
+        android:textColor="#000005"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+<RelativeLayout
+    android:id="@+id/relativeLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/relativeLayout2"
+    android:layout_marginTop="3dp"
+    android:background="#FFFFFF"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:text="手        机"
+        android:textColor="#000005"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_userphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:text="设置"
+        android:textColor="#000005"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+
+<TextView
+    android:id="@+id/textView8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/relativeLayout3"
+    android:layout_marginLeft="10dp"
+    android:padding="8dp"
+    android:text="安全设置"
+    android:textSize="14sp" />
+
+<RelativeLayout
+    android:id="@+id/relativeLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/textView8"
+    android:background="#FFFFFF"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/btn_repwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:text="修改密码"
+        android:textColor="#000080"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+<RelativeLayout
+    android:id="@+id/relativeLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/relativeLayout4"
+    android:layout_marginTop="30dp"
+    android:background="#FFFFFF"
+    android:padding="8dp" >
+
+<TextView
+    android:id="@+id/btn_logout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:text="退出登录"
+    android:textColor="#FF0000"
+    android:textSize="16sp" />
+
+</RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

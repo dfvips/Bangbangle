@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">东职帮帮乐</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_logo_show">LogoShow</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_findpwd">Findpwd</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_about_my_self">AboutMySelf</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_ems_service">EmsService</string>
+    <string name="title_activity_shop">Shop</string>
+    <string name="title_activity_alterpwd">Alterpwd</string>
+    <string name="title_activity_paysuccess">Paysuccess</string>
+
+</resources>

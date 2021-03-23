@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dgpt.bangbangle.FoodShow" 
+    android:background="#FFFFFF">
+  
+    <ProgressBar  
+        android:id="@+id/progressBar1"  
+        style="?android:attr/progressBarStyleHorizontal"  
+        android:layout_width="match_parent"  
+        android:layout_height="3dip"  
+        android:progressDrawable="@drawable/pg"  
+        android:visibility="gone"  
+     
+        />  
+
+ 	<include
+ 	    android:id="@+id/ErrorView"
+ 	    layout="@layout/load_error"
+ 	    android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/progressBar1"
+        android:visibility="gone" />
+
+	<LinearLayout
+	    android:id="@+id/profile_browse"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:visibility="gone" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+
+            <ListView
+                android:id="@+id/quality_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:cacheColorHint="#00000000"
+                 />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="10dp" >
+
+                <ImageView
+                    android:id="@+id/good_detail_up"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/totop"
+                    android:padding="12dp"/>
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+     
+</LinearLayout>  

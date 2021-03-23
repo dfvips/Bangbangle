@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<style name="CustomWindowTitleBackground">
+<item name="android:background">#FFC60C</item>
+</style>
+<style name="mystyle" parent="android:Theme">
+	<item name="android:windowTitleSize">50dp</item>
+	<item name="android:textSize">20sp</item>
+	<item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+	<item name="android:windowBackground">@color/transparent</item>     
+	<item name="android:windowIsTranslucent">true</item>  
+	<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>  
+</style>
+</resources>
